@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #969687;
+	margin:0;
+	padding:0;
+}
+main, section{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+#form {
+	width:500px;
+	height:430px;
+	border:0;
+	margin:0;
+	padding:
+}
+.header-form {
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 26px;
+	color:#fff;
+	direction:rtl;
+	text-align: right;
+}
+.subheader-form {
+	font-family:Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	font-weight:100;
+	color:#fff;
+	direction:rtl;
+	text-align: right;	
+	border-bottom:1px solid #e4e4e4;
+	line-height:30px;
+	margin-bottom:10px;
+	width:480px;
+	float:right;
+}
+fieldset{
+	border:0;
+	margin:0;
+	padding:0;
+	width:500px;
+	text-align:right;
+	float:right;
+}
+legend {
+	color:#ffdd0f;
+	font-family:'Assistant', sans-serif;
+	font-size: 45px;
+	border:0;
+	margin:5px 0px;
+	padding:0px;
+}
+label {
+	display:inline;
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	font-weight:500;
+	line-height: 40px;
+	color:#fff;
+	direction:rtl;
+	float:right;
+	width:100px;
+	margin:5px 0px;
+}
+input {
+	text-align:right;
+	width:360px;
+	height: 40px;
+	border-radius:4px;
+	border:none;
+	background-color: #f1f1f1;
+	color: #656565;
+	direction: rtl;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	margin:5px 0px;
+	float:right;
+	padding-right:20px;
+}
+.none {visibility:hidden;}
+.submit-btn {
+	width:380px;
+	height: 42px;
+	color:#fff;
+	font-family:'Assistant', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	background-color: #4d4d4d;
+	border-radius: 4px;
+	border-bottom: 2px solid #333333;
+}
