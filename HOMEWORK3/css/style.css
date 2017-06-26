@@ -1,9 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 @font-face {
-    font-family: 'pavanamregular';
+    font-family: 'Pavanam';
     src: url('../fonts/pavanam-regular-webfont.woff2') format('woff2'),
          url('../fonts/pavanam-regular-webfont.woff') format('woff');
 	font-weight: normal;
@@ -11,17 +10,20 @@
 }
 
 @font-face {
-    font-family: 'alefregular';
-    src: url('../fonts/alef-regular-webfont.woff2') format('woff2'),
-         url('../fonts/alef-regular-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Alef';
+    src: url('../fonts/Alef-regular.eot');
+    src: url('../fonts/Alef-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Alef-regular.woff') format('woff'),
+         url('../fonts/Alef-regular.ttf') format('truetype'),
+         url('../fonts/Alef-regular.svg#alefregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
 	width:100%;
 	margin:0px;
-	padding:10px;
+	padding:0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,8 +60,9 @@ article p span {
 }
 
 aside article:last-child {
-	font-family: 'pavanamregular';
+	font-family: 'Pavanam';
 }
-body>p:last-child{
-	font-family: 'alef';
+
+body>p:nth-last-child(n) {
+	font-family: 'Alef';
 }
