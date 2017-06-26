@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: 'pavanamregular';
+    src: url('../fonts/pavanam-regular-webfont.woff2') format('woff2'),
+         url('../fonts/pavanam-regular-webfont.woff') format('woff');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'alefregular';
+    src: url('../fonts/alef-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alef-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	width:100%;
+	margin:0px;
+	padding:10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	background-color:#222222;
+}
+h2 {
+	color:red;
+}
+
+div  p {
+	border: 1px solid #000;
+}
+
+section > article {
+	background-color: green;
+	border:3px dashed red;
+}
+
+aside > article {
+	background-color:yellow;
+	border: 3px dotted red;
+}
+
+aside {
+	background-color: rgb(123,0,30);
+	opacity:0.5;
+}
+
+article > span {
+	font-weight: bold;	
+}
+article p span {
+	font-weight: normal;	
+}
+
+aside > article:last-child {
+	font-family: 'pavanamregular';
+}
+body > p:last-of-type{
+	font-family: 'alefregular';
+}
