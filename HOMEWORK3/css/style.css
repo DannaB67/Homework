@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'alefregular';
+    font-family: 'alef';
     src: url('../fonts/alef-regular-webfont.woff2') format('woff2'),
          url('../fonts/alef-regular-webfont.woff') format('woff');
 	font-weight: normal;
@@ -60,6 +60,6 @@ article p span {
 aside article:last-child {
 	font-family: 'pavanamregular';
 }
-body p:last-of-type{
-	font-family: 'alefregular';
+body p:last-child{
+	font-family: 'alef';
 }
